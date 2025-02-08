@@ -1,23 +1,27 @@
-
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractionObject : MonoBehaviour
 {
-    [SerializeField] private string interactionText = "I'm object";
-    AudioSource Playsound;
-
-    private void Start()
-    {
-        Playsound = GetComponent<AudioSource>();
-    }
+    public string interactionText = "I'm an object"; // Now public
+    public int sceneToLoad; // Scene index instead of name
 
     public string GetInteractionText()
     {
         return interactionText;
     }
+
     public void Interact()
     {
-        print("I've been interacted with!");
-        Playsound.Play();
+        Debug.Log("I've been interacted with!");
+
+        if (sceneToLoad >= 0 && sceneToLoad < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("Invalid scene index assigned!");
+        }
     }
 }

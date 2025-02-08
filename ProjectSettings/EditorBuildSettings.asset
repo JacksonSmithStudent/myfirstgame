@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Check in cutscene.unity
+    guid: b85cfb8712762a649873156e3fef19b0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
