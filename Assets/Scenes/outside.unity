@@ -1270,6 +1270,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2259250054525029657, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
+      propertyPath: m_Range
+      value: 43.593906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259250054525029657, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
+      propertyPath: m_Intensity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259250054525029657, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
+      propertyPath: m_SpotAngle
+      value: 84.21477
+      objectReference: {fileID: 0}
     - target: {fileID: 3646724622485374972, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
       propertyPath: moveSpeed
       value: 3
