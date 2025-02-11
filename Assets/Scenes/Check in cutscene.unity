@@ -857,7 +857,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh234546
+  m_Name: pb_Mesh25748
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -8613,6 +8613,7 @@ GameObject:
   - component: {fileID: 537432882}
   - component: {fileID: 537432881}
   - component: {fileID: 537432880}
+  - component: {fileID: 537432883}
   m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
@@ -8706,6 +8707,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537432878}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &537432883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537432878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a4e5e468c6e147a6c0044faca6e65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Exit
+  sceneToLoad: 3
+  canChangeScene: 1
+  persistAcrossScenes: 1
 --- !u!43 &540300293
 Mesh:
   m_ObjectHideFlags: 0
@@ -18954,6 +18971,7 @@ GameObject:
   - component: {fileID: 1144257261}
   - component: {fileID: 1144257260}
   - component: {fileID: 1144257259}
+  - component: {fileID: 1144257262}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -19047,6 +19065,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144257257}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1144257262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144257257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a4e5e468c6e147a6c0044faca6e65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Exit
+  sceneToLoad: 3
+  canChangeScene: 1
+  persistAcrossScenes: 1
 --- !u!1 &1145745071
 GameObject:
   m_ObjectHideFlags: 0
@@ -23875,7 +23909,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh234640
+  m_Name: pb_Mesh25842
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -24834,7 +24868,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh234364
+  m_Name: pb_Mesh25566
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
