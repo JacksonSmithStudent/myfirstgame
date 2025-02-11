@@ -5190,6 +5190,10 @@ PrefabInstance:
       propertyPath: interactableName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5877109368515975626, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7183832067522778905, guid: 31694a0289c5e19488fc844ea16a6a7c, type: 3}
       propertyPath: m_Name
       value: Player
