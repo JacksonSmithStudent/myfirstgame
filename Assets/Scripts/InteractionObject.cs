@@ -6,16 +6,6 @@ public class InteractionObject : MonoBehaviour
     public string interactionText = "I'm an object"; // Interaction text, public
     public int sceneToLoad; // Scene index to load
     public bool canChangeScene = true; // Toggle for enabling/disabling scene change
-    public bool persistAcrossScenes = true; // Flag to persist the object across scenes
-
-    private void Awake()
-    {
-        // Prevent the object from being destroyed when loading a new scene if persistAcrossScenes is true
-        if (persistAcrossScenes)
-        {
-            DontDestroyOnLoad(gameObject);
-        }
-    }
 
     public string GetInteractionText()
     {

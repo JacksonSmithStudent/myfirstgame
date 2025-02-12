@@ -8604,7 +8604,6 @@ MonoBehaviour:
   interactionText: Exit
   sceneToLoad: 0
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!43 &533949392
 Mesh:
   m_ObjectHideFlags: 0
@@ -26246,7 +26245,6 @@ MonoBehaviour:
   interactionText: Exit
   sceneToLoad: 0
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!1001 &1617479579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26524,7 +26522,6 @@ MonoBehaviour:
   interactionText: Doctor's Notes
   sceneToLoad: 6
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!43 &1634560342
 Mesh:
   m_ObjectHideFlags: 0
@@ -28379,7 +28376,6 @@ MonoBehaviour:
   interactionText: A Book
   sceneToLoad: 5
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!82 &1747111520
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34857,7 +34853,6 @@ MonoBehaviour:
   interactionText: Check in chair
   sceneToLoad: 4
   canChangeScene: 1
-  persistAcrossScenes: 0
 --- !u!65 &2001181578
 BoxCollider:
   m_ObjectHideFlags: 0

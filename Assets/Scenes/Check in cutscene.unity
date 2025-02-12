@@ -788,7 +788,6 @@ MonoBehaviour:
   interactionText: Good morning.
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!4 &31574094 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409022, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
@@ -1304,7 +1303,6 @@ MonoBehaviour:
   interactionText: Can Not Pass
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!1001 &98581252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3479,7 +3477,6 @@ MonoBehaviour:
   interactionText: Is there anything else?
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!4 &248607611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436862, guid: 43e4d085be2df4941bd37faa9d07b34f, type: 3}
@@ -6570,7 +6567,6 @@ MonoBehaviour:
   interactionText: Hello!
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!4 &431926627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436862, guid: 43e4d085be2df4941bd37faa9d07b34f, type: 3}
@@ -6799,7 +6795,6 @@ MonoBehaviour:
   interactionText: Doctor's Notes
   sceneToLoad: 0
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!65 &454271646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8726,7 +8721,6 @@ MonoBehaviour:
   interactionText: Exit
   sceneToLoad: 3
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!43 &540300293
 Mesh:
   m_ObjectHideFlags: 0
@@ -19084,7 +19078,6 @@ MonoBehaviour:
   interactionText: Exit
   sceneToLoad: 3
   canChangeScene: 1
-  persistAcrossScenes: 1
 --- !u!1 &1145745071
 GameObject:
   m_ObjectHideFlags: 0
@@ -20642,7 +20635,6 @@ MonoBehaviour:
   interactionText: Can Not Pass
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!1001 &1225901767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27605,7 +27597,6 @@ MonoBehaviour:
   interactionText: Mornin
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!4 &1623485046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409022, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
@@ -28234,7 +28225,6 @@ MonoBehaviour:
   interactionText: No, not anything else
   sceneToLoad: 0
   canChangeScene: 0
-  persistAcrossScenes: 1
 --- !u!4 &1651520345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 491778, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
